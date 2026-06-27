@@ -138,12 +138,19 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 24px); }
   font-family: 'Inter', sans-serif;
   font-size: var(--fs-eyebrow);
   font-weight: 600;
-  backdrop-filter: blur(10px);
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--accent);
   margin-bottom: var(--s-4);
 }
+
+
+.timeline{
+  background-color: #FBFAF6;
+
+}
+
+
 .eyebrow::before {
   content: "";
   width: 18px; height: 1px;
